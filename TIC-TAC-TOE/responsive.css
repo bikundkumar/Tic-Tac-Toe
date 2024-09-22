@@ -1,0 +1,95 @@
+/* Media query for larger screens (desktops, laptops) */
+@media (min-width: 1024px) {
+    .game {
+        width: 60vmin;
+        height: 60vmin;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .box {
+        font-size: 8vmin; 
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Media query for tablets in landscape mode */
+@media (max-width: 1024px) {
+    .game {
+        width: 75vmin; 
+        height: 75vmin;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .box {
+        font-size: 7vmin; 
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Media query for tablets in portrait mode or smaller laptops */
+@media (max-width: 768px) {
+    .game {
+        width: 70vmin; 
+        height: 70vmin;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .box {
+        font-size: 6vmin; 
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Media query for small tablets and large smartphones */
+@media (max-width: 600px) {
+    .game {
+        width: 60vmin; 
+        height: 60vmin;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .box {
+        font-size: 5.5vmin; 
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Media query for small smartphones */
+@media (max-width: 480px) {
+    .game {
+        width: 70vmin;
+        height: 70vmin;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .box {
+        font-size: 5vmin;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Media query for extra-small smartphones */
+@media (max-width: 360px) {
+    .game {
+        width: 50vmin;
+        height: 50vmin;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .box {
+        font-size: 4vmin;
+        width: 100%;
+        height: 100%;
+    }
+}
